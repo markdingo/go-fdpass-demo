@@ -22,10 +22,10 @@ ports. One way to do this is have a server establish the socket and
 fd-pass it back to the client if it passes the access-control rules.
 
 Another example might be if you want to give clients access to some
-files in a directory but not others. So those under a certain size or
-age. The client could send the open request to the server, the server
-applies the age/size logic and fd-passes back an the open file if it's
-is approved.
+files in a directory but not others. Such as those under a certain
+size or age. The client sends the open request to the server, the
+server applies the age/size logic and fd-passes back an the open file
+if it's is approved.
 
 Another use-case is to create a server as a container of idle network
 connections. If your main server uses a lot of state per connection
