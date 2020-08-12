@@ -16,7 +16,7 @@ you want to centrally manage and control access to underlying system
 resources in a way that is not readily possible with the controls
 offered by the operating system.
 
-For example you might want to give clients accept to sockets created
+For example you might want to give clients access to sockets created
 on privileged ports but only to some clients and only to some
 ports. One way to do this is have a server establish the socket and
 fd-pass it back to the client if it passes the access-control rules.
