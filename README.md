@@ -59,3 +59,8 @@ and beyond.
 **--**
 
 **Search terms**: go, golang, fd-passing, CMSG, Control Message, SCM_RIGHTS, recvmsg, sendmsg, Unix.
+
+
+### Copyright and License
+
+go-fdpass-demo is Copyright :copyright: 2020 Mark Delany. This software  is licensed under the BSD 2-Clause "Simplified" License.
