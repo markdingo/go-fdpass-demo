@@ -8,3 +8,7 @@ server: server.go common.go
 
 clean:
 	rm -f client server
+
+.PHONY: fmt
+fmt:
+	find . -name '*.go' -type f -print | xargs gofmt -s -w
